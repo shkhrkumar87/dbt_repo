@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_source # this is the source_name
+    database: RAW
+    schema: RAW
+
+    tables:
+      - name: ORDERS # this is the table_name
+      #- name: orders
+    
