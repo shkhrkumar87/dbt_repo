@@ -2,10 +2,14 @@ version: 2
 
 sources:
   - name: raw_source # this is the source_name
-    database: RAW
-    schema: RAW
-
+    database: STREAMLIT_DB
+    schema: SHEK
     tables:
-      - name: ORDERS # this is the table_name
-      #- name: orders
-    
+      - name: SALES # this is the table_name
+
+  - name: sf_source # this is the source_name
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+    tables:
+      - name: NATION
+      
