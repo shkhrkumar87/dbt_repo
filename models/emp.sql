@@ -1,0 +1,1 @@
+select EMPLOYEE_ID as emp_id,FIRST_NAME as F_Name, LAST_NAME as L_Name from ANALYTICS.HR.EMPLOYEES
