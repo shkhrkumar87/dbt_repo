@@ -1,1 +1,2 @@
-SELECT * FROM DBT.DBT.TRANSACTIONS
+SELECT * from 
+ {{ source('raw_source', 'TRANSACTIONS') }}
