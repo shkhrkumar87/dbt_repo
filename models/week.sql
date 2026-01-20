@@ -1,1 +1,1 @@
-select {{check_is_weekend(7)}} as Weekday1
+select {{check_is_weekend (7) }} as Weekday1
