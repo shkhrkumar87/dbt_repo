@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: Transaction1
+    columns:
+      - name: TRANS_ID
+        tests:
+          - not_null
+          - unique
+
+      - name: TYPE
+        tests:
+          - accepted_values:
+              values: ['Withdrawal']
