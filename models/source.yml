@@ -6,10 +6,12 @@ sources:
     schema: SHEK
     tables:
       - name: SALES # this is the table_name
+        description: "This is a sample"
 
   - name: sf_source # this is the source_name
     database: SNOWFLAKE_SAMPLE_DATA
     schema: TPCH_SF1
     tables:
       - name: NATION
+        description: "SSS"
       
